@@ -1,9 +1,14 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-<iframe src="C:\Users\Owner\Documents\GitHub\DavidNauenburg.github.io\output_fig_2.html">
-</iframe>
-</body>
+<html> 
+  <head> 
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("output_fig_2.html"); 
+    });
+    </script> 
+  </head> 
+
+  <body> 
+     <div id="includedContent"></div>
+  </body> 
 </html>
